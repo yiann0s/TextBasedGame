@@ -55,7 +55,7 @@ class CentralAvenue(Scene):
             print("""
                     The car slowly decelerates and after successfully coming to a complete stop, you get out.
                     The scenery is beautiful! Palm trees, sandy coastlines as far as the eyes can see...Mmmmm...
-                    You fail to see a vicious rattlesnake crawling behind you.  You feel a sudden sting on your right buttcheek.""")
+                    You fail to see a vicious rattlesnake crawling behind you. It leaps and stings your right buttcheek.""")
             return 'death'
         elif action == "turn on the radio":
             print("""80s synthwave music blasts through your speakers and you forget everything.
