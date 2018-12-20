@@ -107,8 +107,8 @@ class TheEndOfTheRoad(Scene):
 
     def enter(self):
         print "You find a narrow road leading to the high way. Pedal to the metal and now it's"
-        print "time for action! Behind you the cop car makes progress and the constant siren's"
-        print "sound gets you r adrelanine pumpin"
+        print "time for action! Behind you the cop car makes progress and "
+        print "the constant siren's sound gets your adrelanine pumpin"
 
         action = raw_input("> ")
 
@@ -123,10 +123,19 @@ class TheEndOfTheRoad(Scene):
             print "'-I never pinched myself...'"
             return 'death'
         elif action == "keep driving"
-        
-
-
+            print "You see a humongous road sign, saying 'END OF ROAD'"
+            print "You hear the cop car smashing the breaks. '-Hah, losers!'"
+            print "You get a tight grip of the steering wheel and BLAMO!"
+            print "'Wooooo... I'm flying suuuuckers!!"
+            return 'death'
+        elif action == "stop car"
+            print "Your foot suddenly steps on the brakes .The car behind you"
+            print "doesn't follow your example and comes running to your rear at"
+            print "flashing speed...BOOOOMMM!! Both cars go up in flames"
+            return 'death'
         else
+            print "NO."
+            return 'the_end_of_the_road'
 
 class TheQuarry(Scene):
 
