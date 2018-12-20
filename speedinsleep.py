@@ -106,7 +106,27 @@ class TheGasStation(Scene):
 class TheEndOfTheRoad(Scene):
 
     def enter(self):
-        pass
+        print "You find a narrow road leading to the high way. Pedal to the metal and now it's"
+        print "time for action! Behind you the cop car makes progress and the constant siren's"
+        print "sound gets you r adrelanine pumpin"
+
+        action = raw_input("> ")
+
+        if action == "open glove compartment"
+            print "Driver's license, chewing gum, a revolver"
+            print "It has three bullets in its chambers. Are you got at shooting?"
+            print "What the heck... Turnign around you pull the trigger thrice."
+            print "Miss, Miss, Tire! The chasing car goes spinning and you raise your arms"
+            print "in the air! Woohoo! Your body slams the seat and you hear this awful sound"
+            print "of metals connecting. 'Shmawzaw, there was a dead end..'"
+            print "The red car flies with the ocean as a destination. '-Am i dreaming?'"
+            print "'-I never pinched myself...'"
+            return 'death'
+        elif action == "keep driving"
+        
+
+
+        else
 
 class TheQuarry(Scene):
 
@@ -121,7 +141,24 @@ class TheQuarry(Scene):
             print "Driver's license, chewing gum, a revolver"
             print "It has three bullets in its chambers. You stash it in your pocket...Wait you have no pockets!!You are"
             print "a furry little bunny!Hah - Ok no time for jokes - What is my name? - Nevermind we will figure this later"
-            print "The cops found you! You hear the siren wailing and you storm out screaming "
+            print "'Oh, snap!'. The cops found you! You hear the siren wailing and storm out screaming."
+            return 'the_end_of_the_road'
+        elif action == "open trunk"
+            print "As soon as the car stops, you hear a thump from behind. There's something"
+            print "in the trunk. You look around . No sign of the police. You turn the lever"
+            print "only to find a blood soaked orange fur of a motionless fox."
+            print "'AAhhh shmaw! This can't be happening to me, darn it!'. Your trembling"
+            print "fingers check for pulse. Cold as ice and stiff as wood. Who is that?"
+            print "You look out for clues. Strapped in the fox's waist there is a fanny pack."
+            print "Inside you find a white business card that writes :"
+            print "'How far would anger get you?' You fall down your knees gasping for air while"
+            print "tears of sadness stream down your cheeks. You feel your heart fluttering"
+            return 'death'
+        else
+            print "NO."
+            return 'the_quarry'
+
+
 
 class Map(object):
 
