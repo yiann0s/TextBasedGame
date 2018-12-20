@@ -49,7 +49,9 @@ class CentralAvenue(Scene):
         action = input("> ")
 
         if action == "keep driving":
-            print("After a few seconds, with the right corner of your eye, you catch a sign of a gas station at about 100km.")
+            print("""
+            After a few seconds, with the right corner of your eye, you catch a sign of a gas station at about 3km.
+            """)
             return 'the_gas_station'
         elif action == "stop":
             print("""
@@ -58,14 +60,16 @@ class CentralAvenue(Scene):
             You fail to see a vicious rattlesnake crawling behind you. It leaps and stings your right buttcheek.
             """)
             return 'death'
-        elif action == "turn on the radio":
-            print("""80s synthwave music blasts through your speakers and you forget everything.
-                    '-I would give anything for a cocktail right now,hah'. As the wheels keep on
-                    spinning, you hear a warm radio voice calling onto you...'-Hey there, do you want'
-                    to have the thrill of your life?' '-Of course I do!!' you hear yourself yelling and chuckling...
-                    '-Well, since you asked for it...'
-                    You notice a faint ticking sound, nah it can't be...
-                    KABOOSH!!!""")
+        elif action == "turn on radio":
+            print("""
+            80s synthwave music blasts through the speakers and a blissful relaxation takes over.
+            '-I would give anything for a cocktail right now, hah'. As the wheels keep on
+            rolling, you hear a warm radio voice calling onto you...
+            '-Hey there, do YOU want to have the thrill of your LIFE?'
+            '-Of course I do!!', you hear yourself yelling.
+            '-Well, since you asked for it...'
+            ...You notice a faint ticking sound...
+            .....KABOOSH!!!""")
             return 'death'
         else:
             print("NO.")
