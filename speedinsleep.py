@@ -24,9 +24,9 @@ class Engine(object):
 class Death(Scene):
 
     death_says = [
-        "Your death will not be remembered. You suck."
-        "Enjoy your death."
-        "FAILURE"
+        "Your death will not be remembered. You suck.",
+        "Enjoy your death.",
+        "FAILURE",
         "No more worries for you. You dead."
     ]
 
@@ -53,9 +53,10 @@ class CentralAvenue(Scene):
             return 'the_gas_station'
         elif action == "stop":
             print("""
-                    The car slowly decelerates and after successfully coming to a complete stop, you get out.
-                    The scenery is beautiful! Palm trees, sandy coastlines as far as the eyes can see...Mmmmm...
-                    You fail to see a vicious rattlesnake crawling behind you. It leaps and stings your right buttcheek.""")
+            The car slowly decelerates and after successfully coming to a complete stop, you get out.
+            The scenery is beautiful! Palm trees, sandy coastlines as far as the eyes can see...Mmmmm...
+            You fail to see a vicious rattlesnake crawling behind you. It leaps and stings your right buttcheek.
+            """)
             return 'death'
         elif action == "turn on the radio":
             print("""80s synthwave music blasts through your speakers and you forget everything.
