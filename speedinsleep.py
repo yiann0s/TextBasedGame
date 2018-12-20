@@ -52,9 +52,10 @@ class CentralAvenue(Scene):
             print("After a few seconds, with the right corner of your eye, you catch a sign of a gas station at about 100km.")
             return 'the_gas_station'
         elif action == "stop":
-            print("""The car slowly decelerates and after successfully coming to a complete stop, you get out.
-                    The scenery is beautiful! Palm trees, sandy coastline as far as the eyes can see...Mmmmm...
-                    A vicious rattlesnake crawls behind you.  You feel a sudden sting on your right buttcheek.""")
+            print("""
+                    The car slowly decelerates and after successfully coming to a complete stop, you get out.
+                    The scenery is beautiful! Palm trees, sandy coastlines as far as the eyes can see...Mmmmm...
+                    You fail to see a vicious rattlesnake crawling behind you.  You feel a sudden sting on your right buttcheek.""")
             return 'death'
         elif action == "turn on the radio":
             print("""80s synthwave music blasts through your speakers and you forget everything.
